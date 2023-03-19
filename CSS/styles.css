@@ -1,14 +1,4 @@
-<<<<<<< HEAD
- body {
-     font-family: "Roboto", sans-serif;
-     color: #434455;
-     background-color: #ffffff;
- }
-
- :root {
-     --bg-color: #FFFFFF;
-     --main-color: #434455;
- }
-=======
-:root
->>>>>>> parent of 0d9a28e (перемістив стиль боді в css)
+:root {
+    --bg-color: #FFFFFF;
+    --main-color: #434455;
+}
