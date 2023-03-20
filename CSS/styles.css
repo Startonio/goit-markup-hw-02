@@ -22,7 +22,20 @@ body {
     color: #4D5AE5;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .logo-s {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
