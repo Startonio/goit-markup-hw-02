@@ -3,14 +3,13 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--white-color);
 }
 
-.header-logoweb {
-    font-family: 'Raleway';
+.logo-w {
+    font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -18,12 +17,12 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    text-transform: none;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
-.header-logostudio {
-    font-family: 'Raleway';
+.logo-s {
+    font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -31,6 +30,14 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    text-transform: none;
+    text-transform: uppercase;
     color: #2E2F42;
 }
+
+.nav-link {
+    text-decoration: none;
+}
+
+.list {}
+
+.header-item {}
