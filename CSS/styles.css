@@ -9,7 +9,7 @@ body {
 }
 
 
-.logo-w .link {
+.logo-w {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -26,8 +26,8 @@ body {
     text-decoration: none;
 }
 
-.logo-s .link {
-    font-family: "Raleway", sans-serif;
+.logo-s {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
