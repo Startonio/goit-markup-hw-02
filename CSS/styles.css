@@ -8,6 +8,7 @@ body {
     background-color: var(--white-color);
 }
 
+
 .logo-w {
     font-family: 'Raleway' sans-serif;
     font-style: normal;
@@ -38,6 +39,16 @@ body {
     text-decoration: none;
 }
 
-.list {}
+.list {
+    list-style: none;
+}
 
-.header-item {}
+.site-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
