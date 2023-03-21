@@ -24,10 +24,6 @@ body {
     color: #4D5AE5;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .logo-right {
     color: #2E2F42;
 }
@@ -42,11 +38,7 @@ body {
     color: #2E2F42;
 }
 
-.list {
-    list-style: none;
-}
-
-.header-item {
+.header-item .link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -56,6 +48,7 @@ body {
     color: #2E2F42;
 }
 
+/* address header */
 .address-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -64,4 +57,12 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
