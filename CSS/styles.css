@@ -1,5 +1,6 @@
 :root {
     --white-color: #FFFFFF;
+
 }
 
 body {
@@ -8,8 +9,9 @@ body {
     background-color: var(--white-color);
 }
 
+/* header */
 
-.logo-w {
+.logo-left {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -26,20 +28,25 @@ body {
     text-decoration: none;
 }
 
-.logo-s {
-
+.logo-right {
     color: #2E2F42;
 }
 
-.nav-link {
-    text-decoration: none;
+.nav-link .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .list {
     list-style: none;
 }
 
-.site-nav {
+.header-item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
