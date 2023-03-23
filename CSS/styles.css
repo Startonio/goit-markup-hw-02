@@ -174,3 +174,12 @@ body {
 .image-mark {
     background-color: #ffffff;
 }
+
+/* FOOTER */
+.footer-copyrigth {
+    background-color: #2e2f42;
+}
+
+.logo-right-footer {
+    color: #f4f4fd;
+}
