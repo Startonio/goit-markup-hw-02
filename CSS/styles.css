@@ -113,9 +113,8 @@ body {
 }
 
 .button-hero {
-    font-family: "Roboto" sans-serif;
     background-color: #4D5AE5;
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
