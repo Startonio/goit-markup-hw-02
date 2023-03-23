@@ -5,7 +5,7 @@
     --logo-left: #4D5AE5;
     --logo-right: #2E2F42;
     --primary-text-color: #434455;
-    --hover-focus: #404bbf;
+
 }
 
 body {
@@ -40,18 +40,18 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1, 5;
     letter-spacing: 0.02em;
     color: var(--color-navigation);
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: var(--hover-focus);
+    color: #404bbf;
 }
 
 .nav-link:focus {
-    color: var(--hover-focus)
+    color: #404bbf;
 }
 
 
@@ -83,11 +83,11 @@ body {
 }
 
 .address-link:hover {
-    color: var(--hover-focus);
+    color: #404bbf;
 }
 
 .address-link:focus {
-    color: var(--hover-focus);
+    color: #404bbf;
 }
 
 .link {
