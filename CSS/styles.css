@@ -151,6 +151,7 @@ body {
 }
 
 .text-item {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -182,4 +183,30 @@ body {
 
 .logo-right-footer {
     color: #f4f4fd;
+}
+
+
+/* PORTFOLIO */
+
+/* SECTION BUTTON */
+
+.btn-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.btn-list:hover {
+    color: #ffffff;
+    background-color: #404bbf;
+}
+
+.btn-list:focus {
+    color: #ffffff;
+    background-color: #404bbf;
 }
