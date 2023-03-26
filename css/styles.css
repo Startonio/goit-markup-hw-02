@@ -1,17 +1,16 @@
 :root {
     --white-color: #FFFFFF;
     --color-navigation: #2E2F42;
-    --color-addres-link: #434455;
     --logo-left: #4D5AE5;
     --logo-right: #2E2F42;
     --primary-text-color: #434455;
-
+    --background-color: #ffffff;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    background-color: var(--background-color)
 }
 
 /* header */
@@ -22,8 +21,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-left)
@@ -36,34 +33,19 @@ body {
 /* navigation */
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navigation);
     text-decoration: none;
 }
 
-.nav-link:hover {
-    color: #404bbf;
-}
-
-.nav-link:focus {
+.nav-link:is(:hover, :focus) {
     color: #404bbf;
 }
 
 
-.header-item .link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-navigation);
-}
 
 /* address header */
 
@@ -82,13 +64,11 @@ body {
     text-decoration: none;
 }
 
-.address-link:hover {
+.address-link:is(:hover, :focus) {
     color: #404bbf;
 }
 
-.address-link:focus {
-    color: #404bbf;
-}
+
 
 .link {
     text-decoration: none;
