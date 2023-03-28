@@ -5,6 +5,9 @@
     --logo-right: #2E2F42;
     --primary-text-color: #434455;
     --background-color: #ffffff;
+    --focus-hover: #404bbf;
+    --btn-list-color: #ffffff;
+    --btn-list-background: #404bbf;
 }
 
 body {
@@ -42,7 +45,7 @@ body {
 }
 
 .nav-link:is(:hover, :focus) {
-    color: #404bbf;
+    color: var(--focus-hover);
 }
 
 /*--------------------------------------------- address header --------------------------------------------------*/
@@ -63,7 +66,7 @@ body {
 }
 
 .address-link:is(:hover, :focus) {
-    color: #404bbf;
+    color: var(--focus-hover);
 }
 
 
@@ -101,14 +104,11 @@ body {
     cursor: pointer;
 }
 
-.button-hero:focus {
-    background-color: #404BBF;
+.button-hero:is (:focus, :hover) {
+    background-color: var(--focus-hover);
 
 }
 
-.button-hero:hover {
-    background-color: #404BBF;
-}
 
 /** ---------------------------------------------------SECTION ONE-------------------------------------------- */
 
@@ -173,6 +173,7 @@ body {
     color: #E7E9FC;
 }
 
+
 /*------------------------------------------------------------ PORTFOLIO----------------------------------------- */
 
 /*------------------------------------------------------- SECTION BUTTON----------------------------------------- */
@@ -188,14 +189,9 @@ body {
     cursor: pointer;
 }
 
-.btn-list:hover {
-    color: #ffffff;
-    background-color: #404bbf;
-}
-
-.btn-list:focus {
-    color: #ffffff;
-    background-color: #404bbf;
+.btn-list:is(:hover, :focus) {
+    color: var(--btn-list-color);
+    background-color: var(--btn-list-background);
 }
 
 /*------------------------------------------------------- FOOTER -------------------------------------------------*/
